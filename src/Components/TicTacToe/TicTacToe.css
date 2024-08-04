@@ -48,8 +48,43 @@
     border: 2px solid #0f1B21;
     border-radius: 12px;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes img {
+    height: 80%;
+    width: 80%;
 }
 
 .boxes:hover{
     filter: brightness(155%);
+}
+
+.guide{
+    position: absolute;
+    inset: 20px;
+    color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 200px;
+}
+
+.guide div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue;
+}
+
+.guide>h1{
+    font-size: 40px;
+    text-decoration: underline;
 }
